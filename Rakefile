@@ -1,4 +1,6 @@
 require_relative './config/environment'
+#makes the rake -T commands available
+
 require 'sinatra/activerecord/rake'
 
 desc "Runs a Pry console"
